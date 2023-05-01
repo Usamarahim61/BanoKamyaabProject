@@ -1,0 +1,50 @@
+body{
+    overflow: visible;
+}
+.avatar {
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .Bordercolor{
+    border-color: -webkit-linear-gradient(180deg,#817cbb,#033d16);
+  }
+.navbar-brand{
+    background: -webkit-linear-gradient(150deg,#817cbb,#033d16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:x-large;
+}
+.homefontsize{
+    font-size: 17px;
+  
+}
+.homeiconsize{
+    font-size: 100px;
+
+  
+}
+.homehead{
+    background-color: #94b8b8;
+}
+nav{
+    background-color: #d1e0e0;
+}
+.img_snav{
+    width: 60px;
+    height:50px;
+}
+.anchor{
+    color: white;
+}
+
+.anchor:hover{
+    color: #53ac70;
+}
+.home1{
+    background: -webkit-linear-gradient(150deg,#817cbb,#033d16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+}

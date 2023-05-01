@@ -1,0 +1,96 @@
+.ribbon786 {
+    height: 100px;
+    position: relative;
+    margin-bottom: 30px;
+    background: url(https://html5book.ru/wp-content/uploads/2015/10/snow-road.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-size: xx-large;
+  
+  }
+  
+  .ribbonadd {
+    width: 700px;
+    height: 80px;
+    line-height: 70px;
+    padding-left: 45px;
+    position: absolute;
+    left: -35px;
+    top: 20px;
+    background: #59324C;
+    font-family: "font_condensed";
+  }
+  .ribbonadd:before, .ribbonadd:after {
+    content: "";
+    position: absolute;
+  }
+  .ribbonadd:before {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: 0.1px;
+    border-bottom: 9px solid black;
+    border-left: 9px solid transparent;
+  }
+  .ribbonadd:after {
+    height: 0;
+    width: 0;
+    right: -14.5px;
+    border-top: 41px solid transparent;
+    border-bottom: 41px solid transparent;
+    border-left: 15px solid #59324C;
+  }
+  
+  
+  
+  
+  @media (min-width: 500px) {
+    .ribbonadd {
+      width: 60%;
+    }
+  }
+
+
+
+  .ribbonadd2 {
+    width: 700px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 45px;
+    position: absolute;
+    left: -25px;
+    top: 20px;
+    background: #59324C;
+    font-family: "font_condensed";
+  }
+  .ribbonadd2:before, .ribbonadd2:after {
+    content: "";
+    position: absolute;
+  }
+  .ribbonadd2:before {
+    height: 0;
+    width: 0;
+    top: -8.5px;
+    left: 0.1px;
+    border-bottom: 9px solid black;
+    border-left: 9px solid transparent;
+  }
+  .ribbonadd2:after {
+    height: 0;
+    width: 0;
+    right: -14.5px;
+    border-top: 38px solid transparent;
+    border-bottom: 33px solid transparent;
+    border-left: 15px solid #59324C;
+  }
+  
+  
+  
+  
+  @media (min-width: 500px) {
+    .ribbonadd2 {
+      width: 60%;
+    }
+  }

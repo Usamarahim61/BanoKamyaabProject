@@ -1,0 +1,25 @@
+.SecInput {
+    padding: 5px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    }
+    .SecInput:focus{
+        outline:none;
+        
+    }
+
+    .info1 {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .unselectable {
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            /* color: #cc0000; */
+          }

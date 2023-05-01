@@ -1,0 +1,24 @@
+.showhover{
+    position:relative;
+    width:100%;
+    display: flex;
+}
+.showhover:hover{
+    background-color: rgb(0, 0, 0);
+    opacity: .60; 
+    color: white;
+}
+.hidehover{
+    display:none;
+    position: absolute; 
+    top:0;
+    left: -20px;
+
+
+}
+.showhover:hover .hidehover{
+    width: 100%;
+     display: flex;
+     margin-top: 10px;
+     justify-content:right;
+}
